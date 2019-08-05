@@ -1,0 +1,41 @@
+<html>
+<textarea form="testformid" name="title" class="box2" cols="100">TITLE HERE...</textarea>
+<textarea class="box" form ="testformid" name="content" id="taid" cols="100" rows="50" wrap="soft">CONTENT HERE...</textarea>
+<form method="POST" id="testformid">
+    <input type="submit" />
+</form> 
+<form action="http://127.0.0.1:5000/blogs">
+    <input type="submit" value="Cancel" />
+</form>
+</html>
+<style>
+body
+{
+  background-color: #474747;
+}
+.box{
+  width: 60%;
+  height: 800px;
+  margin: 0px 0 20px 0;
+  outline: none;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+  color: #616161;
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,.07);
+}
+.box2{
+  width: 60%;
+  margin: 0px 0 20px 0;
+  outline: none;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+  color: #616161;
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,.07);
+}
+</style>
