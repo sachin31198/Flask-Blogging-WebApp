@@ -2,12 +2,12 @@
 
 Database schema
 
-Posts
-  PostID (identity)
-  PostTitle (varchar)
-  PostDate (datetime)
-  Deleted (int)
-  OwnerID (int FK to Users)
+Posts  
+  PostID (identity)  
+  PostTitle (varchar)  
+  PostDate (datetime)  
+  Deleted (int)  
+  OwnerID (int FK to Users)  
 
 PostDetails
   PostDetailID (identity)
